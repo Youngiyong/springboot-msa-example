@@ -15,7 +15,7 @@ public class CoreController {
     @Value("${server.port}")
     private int port;
 
-    @Value("HI")
+    @Value("${spring.message}")
     private String message;
 
     @GetMapping("/contents/detail")

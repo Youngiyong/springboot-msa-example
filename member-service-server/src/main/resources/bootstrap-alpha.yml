@@ -1,4 +1,4 @@
-# member-service, contents-service bootstrap-local.yml
+# bootstrap-alpha.yml
 spring:
   profiles: alpha
   cloud:
