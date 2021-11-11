@@ -1,6 +1,6 @@
 # zuul-gateway-local.yml
 spring:
-  profiles: local
+  profiles: alpha
 zuul:
   routes:
     member:
