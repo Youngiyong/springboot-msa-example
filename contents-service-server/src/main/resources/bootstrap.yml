@@ -1,0 +1,13 @@
+# contents-service bootstrap.yml
+server:
+  port: 8081
+spring:
+  profiles:
+    active: local
+  application:
+    name: contents-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, refresh
