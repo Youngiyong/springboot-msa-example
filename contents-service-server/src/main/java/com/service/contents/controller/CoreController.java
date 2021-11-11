@@ -23,4 +23,18 @@ public class CoreController {
         return "Contents Detail - Port " + port + " - " + message;
     }
 
+    @GetMapping("/pay/detail")
+    public String pay() {
+        return "Pay Detail - Port " + port + " - " + message;
+    }
+
+    @GetMapping("/comment")
+    public String comment() {
+        return "Comment - Port " + port + " - " + message;
+    }
+
+    @GetMapping("/board")
+    public String board() {
+        return "Board - Port " + port + " - " + message;
+    }
 }
