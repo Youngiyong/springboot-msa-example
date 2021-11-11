@@ -3,6 +3,3 @@ spring:
   profiles: alpha
   message: Modify Hello Spring ContentsService Alpha Server!!!!!
 
-
-user:
-  password: '{ciper}AQA+qS2rT1KQgmDzQpHtLt2dPzHFToBReSe8HP1bzWl8fTmWeswlnSo+JknVqS3CRXn1EcROeC9fcpvDgjDw3iSJM1GPDM/9wRqSlYkeOpj9pNPYCkcHNljsFEOvODNTSm2zWWXcCN7pAcvgbMZeOSZ8xNm1E/clNmtYif/JnGCeTUgsZ86nMIpZjq6G0HzvFcNSZCVYYi944rejmf1Oc7/mpOkAqh3XdGgqsm9wQzUglbaYpPodk3TKFIaYByC6iWKcr9dtLCmDDG7uvG94GY7ysuYZg6GLRUcflYUVaUzJ4oBWDB+xQMG26Lao2iH1DrqKN+xo0+aLX62aRrgmvoLI7/MEA0Hegk+Vt94ptFX/bGaHkTs3i8iLdFyPs1hHtMU=%'
