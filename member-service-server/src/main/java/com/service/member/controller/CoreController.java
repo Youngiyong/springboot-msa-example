@@ -17,9 +17,16 @@ public class CoreController {
     @Value("${spring.message}")
     private String message;
 
+    @Value("${user.password}")
+    private String password;
+
     @GetMapping("/member/detail")
     public String member() {
         return "Member Detail - Port " + port + " - " + message;
     }
-
+    
+    @GetMapping("/member/password")
+    public String memberPassword() {
+        return "Member Password - " + password;
+    }
 }

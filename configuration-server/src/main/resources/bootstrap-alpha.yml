@@ -5,5 +5,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Youngiyong/Springboot-msa-project
+          uri: https://github.com/Youngiyong/springboot-msa-example
           search-paths: server-configs

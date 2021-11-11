@@ -4,3 +4,10 @@ server:
 spring:
   profiles:
     active: native
+
+encrypt:
+  key-store:
+    location: classpath:/config-server.jks
+    password: storepass123
+    alias: config-server-key
+    secret: keypass123
