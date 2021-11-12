@@ -3,7 +3,17 @@ server:
   port: 9000
 spring:
   profiles:
-    active: native
+    active: native,local
+  application:
+    name: config-service
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
+    enabled: true
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true
 
 encrypt:
   key-store:
@@ -11,3 +21,4 @@ encrypt:
     password: storepass123
     alias: config-server-key
     secret: keypass123
+
